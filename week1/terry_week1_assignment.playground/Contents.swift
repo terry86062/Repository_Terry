@@ -123,8 +123,14 @@ myFriends += ["Ian", "Bomi", "Kevin"]
 myFriends.append("Michael")
 
 //4.
-myFriends.remove(at: 2)
+//myFriends.remove(at: 2)
+//myFriends.insert("Kevin", at: 0)
+
+myFriends
 myFriends.insert("Kevin", at: 0)
+myFriends.remove(at: 3)
+myFriends
+
 
 //5.
 for friend in myFriends {
