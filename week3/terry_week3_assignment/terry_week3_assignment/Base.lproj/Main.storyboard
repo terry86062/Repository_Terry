@@ -22,7 +22,7 @@
                                 <rect key="frame" x="70" y="461" width="235" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="235" id="Tfy-8S-9oz"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="Tfy-8S-9oz"/>
                                     <constraint firstAttribute="height" constant="30" id="gfv-Xb-k6n"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -35,7 +35,7 @@
                                 <rect key="frame" x="112.5" y="218" width="150" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="dcM-GQ-T5R"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="dcM-GQ-T5R"/>
                                 </constraints>
                                 <segments>
                                     <segment title="Log In"/>
@@ -97,16 +97,19 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="rWK-6p-RNW" firstAttribute="leading" secondItem="4jd-Yd-nhV" secondAttribute="trailing" constant="35" id="1mx-HL-FZ3"/>
                                     <constraint firstItem="dlA-yN-Ip4" firstAttribute="centerY" secondItem="YC7-4N-X4T" secondAttribute="centerY" id="73W-BE-IrI"/>
                                     <constraint firstItem="8uh-09-zq3" firstAttribute="centerY" secondItem="Z0p-GM-prp" secondAttribute="centerY" id="9BM-qk-wAS"/>
                                     <constraint firstItem="8uh-09-zq3" firstAttribute="leading" secondItem="YC7-4N-X4T" secondAttribute="leading" constant="8" id="Dr2-uI-WiF"/>
                                     <constraint firstAttribute="trailing" secondItem="Z0p-GM-prp" secondAttribute="trailing" constant="8" id="Nij-Vy-wez"/>
                                     <constraint firstAttribute="width" constant="255" id="PFn-EF-Myn"/>
                                     <constraint firstItem="lhz-Hr-2RJ" firstAttribute="centerY" secondItem="YC7-4N-X4T" secondAttribute="centerY" id="Qr4-0r-mrZ"/>
+                                    <constraint firstItem="lhz-Hr-2RJ" firstAttribute="leading" secondItem="dlA-yN-Ip4" secondAttribute="trailing" constant="10" id="SVo-BQ-RWF"/>
                                     <constraint firstItem="4jd-Yd-nhV" firstAttribute="centerY" secondItem="rWK-6p-RNW" secondAttribute="centerY" id="bJX-nz-qv0"/>
                                     <constraint firstItem="dlA-yN-Ip4" firstAttribute="leading" secondItem="YC7-4N-X4T" secondAttribute="leading" constant="8" id="cDe-MG-Aq0"/>
                                     <constraint firstAttribute="height" constant="125" id="dbs-zL-0wb"/>
                                     <constraint firstAttribute="trailing" secondItem="rWK-6p-RNW" secondAttribute="trailing" constant="8" id="lC9-eB-zv1"/>
+                                    <constraint firstItem="Z0p-GM-prp" firstAttribute="leading" secondItem="8uh-09-zq3" secondAttribute="trailing" constant="20" id="lgB-ug-p47"/>
                                     <constraint firstItem="4jd-Yd-nhV" firstAttribute="leading" secondItem="YC7-4N-X4T" secondAttribute="leading" constant="8" id="mVe-G1-m9D"/>
                                     <constraint firstAttribute="trailing" secondItem="lhz-Hr-2RJ" secondAttribute="trailing" constant="8" id="mW9-Sc-qwA"/>
                                     <constraint firstAttribute="bottom" secondItem="rWK-6p-RNW" secondAttribute="bottom" constant="8" id="xLz-nY-Hyu"/>
