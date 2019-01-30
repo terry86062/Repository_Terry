@@ -1,0 +1,6 @@
+Remote Learning Assignment - Week 4
+
+Build a Weather App
+
+1.
+因為 CurrentWeatherViewModel 是用來將原始資料轉換成呈現資料，若將這樣的功能寫在 CurrentWeather 中，等於將原始資料和如何呈現資料的方法寫在一起。不這樣做的原因：一、 Model 是用來轉換原始資料成呈現資料的，原始資料是什麼並不是 Model 所需包含的。二、原始資料的呈現方式可能不只一種，若是將原始資料和 Model 寫在一起，一個種方法是在不同的 Model 都要再寫一次原始資料，等於重複再寫原始資料，另一種是將原始資料和所有的 Model 寫在一起，這樣 CurrentWeather 會變得很龐大，而不同 Model 的資訊四散在 CurrentWeather 中。
